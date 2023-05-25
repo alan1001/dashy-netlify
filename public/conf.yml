@@ -26,17 +26,15 @@ sections:
   - type: weather
     options:
       apiKey: efdbade728b37086877a5e83442004db
-      city: London
-  - type: crypto-watch-list
+      city: Gianyar
+  - type: domain-monitor
     options:
-      currency: GBP
-      sortBy: marketCap
-      assets:
-      - bitcoin
-      - ethereum
-      - monero
-      - solana
-      - polkadot
+      domain: mitraprodin.com
+      apiKey: 8850e2e1225144b37483e25ca53ab895
+  - type: domain-monitor
+    options:
+      domain: mitraprodin.xyz
+      apiKey: 8850e2e1225144b37483e25ca53ab895
 
 - name: Productivity
   icon: far fa-briefcase
