@@ -44,9 +44,6 @@ sections:
   icon: far fa-code
   widgets:
   - type: github-trending-repos
-    options:
-      limit: 8
-      since: weekly
   items:
   - title: Hack the Box
     icon: favicon
@@ -85,4 +82,4 @@ sections:
       options:
         apiKey:  akc8XUVtkP3tTME6GFjlBe1pPBlqbeZdJQN-Vjmr2SoVTNV9
         category: technology
-        count: 5
+        count: 2
