@@ -37,56 +37,11 @@ sections:
   icon: far fa-briefcase
   widgets:
   - type: public-ip
+  - type: news-headlines
+    options:
+      apiKey:  akc8XUVtkP3tTME6GFjlBe1pPBlqbeZdJQN-Vjmr2SoVTNV9
+      category: indonesia
   items:
-  - title: ProtonMail
-    icon: favicon
-    url: https://mail.protonmail.com/
-    description: Primary email account
-    tags: [hosted, personal, email, mail]
-    hotkey: 1
-  - title: CTemplar
-    icon: favicon
-    url: https://mail.ctemplar.com/
-    description: Secondary email account
-    tags: [hosted, personal, email, mail]
-    hotkey: 2
-  - title: AnonAddy
-    icon: favicon
-    url: https://app.anonaddy.com/
-    description: Mail alias forwarder
-    tags: [hosted, personal, forwarder, aliases, email]
-    hotkey: 3
-    statusCheckAcceptCodes: '401'
-  - title: LessPass
-    icon: favicon
-    url: https://lesspass.com/
-    description: Deterministic password generator
-    tags: [hosted, personal, password, generate, deterministic]
-    hotkey: 4
-  - title: EteSync
-    icon: favicon
-    url: https://pim.etesync.com/
-    description: Calendar + Contacts, CalDAV sync
-    tags: [hosted, personal, caldav, calendar, contacts, tasks, planning]
-    hotkey: 5
-  - title: Tasks
-    icon: https://i.ibb.co/v4jznK0/todo-list.png
-    url: https://pim.etesync.com/pim/tasks
-    description: Todo list and tasks from CalDAV
-    tags: [hosted, personal, caldav, tasks, planning]
-    hotkey: 6
-  - title: Tresorit
-    icon: favicon
-    url: https://web.tresorit.com/
-    description: Off-site encrypted file sync + backup
-    tags: [hosted, personal, files, backup, sync, storage ]
-    hotkey: 7
-  - title: StandardNotes
-    icon: favicon
-    url: https://app.standardnotes.com/
-    description: Notes, and my second brain
-    tags: [hosted, personal, notes ]
-    hotkey: 8
   - title: 1Password
     icon: favicon
     url: https://my.1password.com/
