@@ -51,26 +51,12 @@ sections:
 
 - name: Dev & Cloud
   icon: far fa-code
+  widgets:
+  - type: github-trending-repos
+  options:
+    limit: 8
+    since: weekly
   items:
-  - title: GitHub
-    icon: favicon
-    url: https://github.com/
-  - title: StackOverflow
-    icon: favicon
-    url: http://stackoverflow.com/
-  - title: CloudFlare
-    icon: favicon
-    url: https://dash.cloudflare.com/
-    statusCheckAcceptCodes: '403'
-  - title: DigitalOcean
-    icon: favicon
-    url: https://cloud.digitalocean.com/
-  - title: Netlify
-    icon: favicon
-    url: https://app.netlify.com/
-  - title: CodeSandbox
-    icon: favicon
-    url: https://codesandbox.io/dashboard
   - title: Hack the Box
     icon: favicon
     url: https://www.hackthebox.com/home
