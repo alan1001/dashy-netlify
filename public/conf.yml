@@ -27,20 +27,11 @@ sections:
     options:
       apiKey: efdbade728b37086877a5e83442004db
       city: Denpasar
-  - type: public-holidays
-    options:
-      country: ID
-      holidayType: all
-      monthsToShow: 12
 
 - name: Productivity
   icon: far fa-briefcase
   widgets:
   - type: public-ip
-  - type: news-headlines
-    options:
-      apiKey:  akc8XUVtkP3tTME6GFjlBe1pPBlqbeZdJQN-Vjmr2SoVTNV9
-      category: indonesia
   items:
   - title: 1Password
     icon: favicon
@@ -53,9 +44,9 @@ sections:
   icon: far fa-code
   widgets:
   - type: github-trending-repos
-  options:
-    limit: 8
-    since: weekly
+    options:
+      limit: 8
+      since: weekly
   items:
   - title: Hack the Box
     icon: favicon
@@ -89,33 +80,9 @@ sections:
 
 - name: Social & News
   icon: far fa-thumbs-up
-  items:
-  - title: Discord
-    icon: si-discord
-    url: https://discord.com/channels/
-  - title: Mastodon
-    icon: si-mastodon
-    url: https://mastodon.social/
-  - title: Reddit
-    icon: si-reddit
-    url: https://www.reddit.com/
-  - title: HackerNews
-    icon: si-ycombinator
-    url: https://news.ycombinator.com/
-  - title: Twitter
-    icon: si-twitter
-    url: https://twitter.com/
-  - title: YouTube
-    icon: si-youtube
-    url: https://youtube.com/
-  - title: Instagram
-    icon: si-instagram
-    url: https://www.instagram.com/
-  - title: News
-    icon: si-bbc
-    url: https://bbc.co.uk/news
-  - title: Crypto Prices
-    icon: fab fa-bitcoin
-    url: https://www.livecoinwatch.com/
-    description: Real-time crypto prices and read-only portfolio
-    provider: Live Coin Watch
+  widgets:
+    - type: news-headlines
+      options:
+        apiKey:  akc8XUVtkP3tTME6GFjlBe1pPBlqbeZdJQN-Vjmr2SoVTNV9
+        category: technology
+        count: 5
