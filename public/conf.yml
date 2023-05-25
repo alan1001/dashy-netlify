@@ -26,18 +26,17 @@ sections:
   - type: weather
     options:
       apiKey: efdbade728b37086877a5e83442004db
-      city: Gianyar
-  - type: domain-monitor
+      city: Denpasar
+  - type: public-holidays
     options:
-      domain: mitraprodin.com
-      apiKey: 8850e2e1225144b37483e25ca53ab895
-  - type: domain-monitor
-    options:
-      domain: mitraprodin.xyz
-      apiKey: 8850e2e1225144b37483e25ca53ab895
+      country: ID
+      holidayType: all
+      monthsToShow: 12
 
 - name: Productivity
   icon: far fa-briefcase
+  widgets:
+  - type: public-ip
   items:
   - title: ProtonMail
     icon: favicon
